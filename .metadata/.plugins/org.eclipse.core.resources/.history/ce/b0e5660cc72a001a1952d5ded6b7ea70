@@ -1,0 +1,5 @@
+package com.limit.limit.controller;
+
+public class LimitConfigurationController {
+
+}

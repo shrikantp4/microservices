@@ -1,0 +1,7 @@
+package com.limit.limit;
+
+@Component
+@ConfigurationProperties("limits-service")
+public class Configuration {
+
+}

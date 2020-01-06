@@ -1,0 +1,5 @@
+package com.zuul.api;
+
+public class ZuulLogingFilter {
+
+}

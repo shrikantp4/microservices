@@ -1,0 +1,21 @@
+package com.limit.limit.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.limit.limit.bean.LimitConfiguration;
+
+@RestController
+public class LimitConfigurationController {
+	@Autowired
+	private Configuration config;
+	
+	@GetMapping("/getLimit")
+	public LimitConfiguration getLimit() {
+		LimitConfiguration limitCOnfig = new LimitConfiguration(config.get);
+	}
+	
+
+}

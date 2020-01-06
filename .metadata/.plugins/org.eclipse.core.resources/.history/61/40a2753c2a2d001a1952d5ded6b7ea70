@@ -1,0 +1,5 @@
+package com.currency.exchange.repository;
+
+public interface ExchangeValueRepository {
+
+}

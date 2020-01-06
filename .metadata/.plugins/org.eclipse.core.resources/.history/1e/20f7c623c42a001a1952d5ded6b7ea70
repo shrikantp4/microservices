@@ -1,0 +1,9 @@
+package com.limit.limit;
+
+public class LimitConfigurationController {
+
+	public LimitConfigurationController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,4 @@
+spring.application.name=currency-conversion-service
+server.port=8100
+
+currency-conversion-service.ribbon.listofservers = http://localhost:8000,http://localhost:8001 
